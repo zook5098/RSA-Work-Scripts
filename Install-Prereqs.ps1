@@ -15,7 +15,6 @@ Get-WindowsFeature | Out-File -FilePath ./PreInstall.txt
 Set-ExecutionPolicy Bypass -Scope Proces
 
 Install-WindowsFeature -LogPath ./Log.txt Web-Default-Doc,
-Web-Default-Doc,
 Web-Dir-Browsing,
 Web-Http-Errors,
 Web-Static-Content,

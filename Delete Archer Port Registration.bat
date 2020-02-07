@@ -1,4 +1,4 @@
-netsh http add urlacl url=https://+:13200/ConfigService/rest
+netsh http del urlacl url=https://+:13200/ConfigService/rest
 netsh http del urlacl url=http://+:13201/ConfigService
 netsh http del urlacl url=http://+:13202/ClientMessageService
 netsh http del urlacl url=http://+:13300/ClientMessageService
