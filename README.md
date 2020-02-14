@@ -1,1 +1,1 @@
-Just some simple scripts that I use to make Archer life easier.
+Just some simple scripts and tools that I use to make testing and supporting Archer easier.
