@@ -7,4 +7,4 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.We
 
 ### Normal Packages to Install ###
 
-choco install -y chocolateygui chocolatey-windowsupdate.extension chocolatey-core.extension 7zip fiddler libreoffice-fresh dotnetfx netfx-4.8 silverlight sql-server-management-studio thunderbird notepadplusplus sumatrapdf
+choco install -y chocolatey-windowsupdate.extension chocolatey-core.extension 7zip fiddler libreoffice-fresh dotnetfx netfx-4.8 silverlight sql-server-management-studio thunderbird notepadplusplus sumatrapdf
