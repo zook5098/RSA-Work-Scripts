@@ -1,7 +1,8 @@
-# This script installs IIS and the features required to run RSA Archer.
+﻿# This script installs IIS and the features required to run RSA Archer.
+#
 # Make sure you run this script from a Powershel Admin Prompt!
 # Make sure Powershell Execution Policy is bypassed to run these scripts!
-
+#
 # LIST All IIS FEATURES: 
 # Get-WindowsOptionalFeature -Online | where FeatureName -like 'IIS-*'
 
@@ -9,7 +10,7 @@ Import-Module ServerManager
 
 Get-WindowsFeature | Out-File -FilePath ./PreInstall.txt
 
-Set-ExecutionPolicy Bypass -Scope Proces
+Set-ExecutionPolicy -ExecutionPolicy Bypass
 
 Install-WindowsFeature -LogPath ./Log.txt Web-Default-Doc,
 Web-Dir-Browsing,
